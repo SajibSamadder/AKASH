@@ -1,0 +1,26 @@
+@media (max-width:992px) {
+    .why_akash_card_wrapper {
+        grid-template-columns: repeat(3,1fr);
+    } 
+}
+@media (max-width:768px) {
+    .banner_slider_wrapper .mobile{
+        display: block!important;
+    }
+    .banner_slider_wrapper .desktop{
+        display: none!important;
+    }
+    .why_akash_card_wrapper {
+        grid-template-columns: repeat(2,1fr);
+    } 
+}
+@media (max-width:576px) {
+    .why_akash_card_wrapper {
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 0px;
+        padding: 0 20px;
+    } 
+    .akash_card{
+        margin-bottom: 20px;
+    }
+}
